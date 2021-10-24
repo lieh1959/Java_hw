@@ -10,13 +10,13 @@ class Namecard
       private String company;
       private String cell;
 
-      public Phone(String s1,String s2)
+      public Phone(String s1,String s2)      //å…§éƒ¨é¡åˆ¥å»ºæ§‹
       {
          company=s1;
          cell=s2;
       }
    }
-   public Namecard(String na,String add,String s1,String s2)
+   public Namecard(String na,String add,String s1,String s2)      //å¤–éƒ¨é¡åˆ¥å»ºæ§‹
    {
       name=na;
       address=add;
@@ -24,10 +24,10 @@ class Namecard
    }
    public void show()
    {
-      System.out.println("¦n¤Í©m¦W:"+name);
-      System.out.println("Ápµ¸¦a§}:"+address);
-      System.out.println("¤½¥q¹q¸Ü:"+data.company);
-      System.out.println("¤â¾÷¸¹½X:"+data.cell);
+      System.out.println("å¥½å‹å§“å:"+name);
+      System.out.println("è¯çµ¡åœ°å€:"+address);
+      System.out.println("å…¬å¸é›»è©±:"+data.company);
+      System.out.println("æ‰‹æ©Ÿè™Ÿç¢¼:"+data.cell);
    }
 }
 
@@ -42,8 +42,8 @@ public class hw9_17
 }
 
 /* output--------------
-¦n¤Í©m¦W:Andy
-Ápµ¸¦a§}:123City
-¤½¥q¹q¸Ü:2345-6789
-¤â¾÷¸¹½X:0911-336600
+å¥½å‹å§“å:Andy
+è¯çµ¡åœ°å€:123City
+å…¬å¸é›»è©±:2345-6789
+æ‰‹æ©Ÿè™Ÿç¢¼:0911-336600
 ---------------------*/
