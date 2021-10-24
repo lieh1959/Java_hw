@@ -1,11 +1,11 @@
-// hw9_17,
-class Namecard
+// hw9_17,  巢狀類別
+class Namecard       
 {
    private String name;
    private String address;
    private Phone data;
 
-   class Phone
+   class Phone       //內部類別
    {
       private String company;
       private String cell;
